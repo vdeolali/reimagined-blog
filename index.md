@@ -1,13 +1,17 @@
 ---
-title: Welcome to my blog
+title: Another Blog
 ---
 
-Testing github blogging tool.
+  <<<<<<< my-pages
+    Testing github blogging tool.
 
---H2
-# Header
-## sub header
-A sentence
-- bullet point 1
-- next one
-  `help`
+  --H2
+    # Header
+    ## sub header
+    A sentence
+      - bullet point 1
+      - next one
+          `help`
+          =======
+            Something to read here. One more
+  >>>>>>> main
