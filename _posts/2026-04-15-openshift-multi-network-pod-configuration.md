@@ -54,7 +54,7 @@ oc create namespace test-net
 
 ## Step 2: Create the NNCP bridge mapping
 
-Use [vlan200-nncp-ovn-localnet.yaml](/assets/manifests/localnet/vlan200-nncp-ovn-localnet.yaml) as the `NodeNetworkConfigurationPolicy` for the `localnet` bridge mapping.
+Use [vlan200-nncp-ovn-localnet.yaml](/reimagined-blog/assets/manifests/localnet/vlan200-nncp-ovn-localnet.yaml) as the `NodeNetworkConfigurationPolicy` for the `localnet` bridge mapping.
 
 Apply it:
 
@@ -83,7 +83,7 @@ If `br-ex` is not the right bridge for your environment, the same NNCP pattern c
 
 ## Step 3: Create the `NetworkAttachmentDefinition`
 
-Use [vlan200-nad-ovn-localnet.yaml](/assets/manifests/localnet/vlan200-nad-ovn-localnet.yaml) as the `NetworkAttachmentDefinition`.
+Use [vlan200-nad-ovn-localnet.yaml](/reimagined-blog/assets/manifests/localnet/vlan200-nad-ovn-localnet.yaml) as the `NetworkAttachmentDefinition`.
 
 Apply it:
 
@@ -109,7 +109,7 @@ That only works if the underlay path between the worker and the physical network
 
 ## Step 4: Launch a test pod
 
-Use [test-nad.yaml](/assets/manifests/localnet/test-nad.yaml) for the sample pod. It keeps the default pod network and adds a second interface from the `vlan200-ovn-localnet` NAD.
+Use [test-nad.yaml](/reimagined-blog/assets/manifests/localnet/test-nad.yaml) for the sample pod. It keeps the default pod network and adds a second interface from the `vlan200-ovn-localnet` NAD.
 
 Apply it:
 
