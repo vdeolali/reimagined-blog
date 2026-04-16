@@ -1,17 +1,7 @@
 ---
-title: Another Blog
+title: Archived Blog Repo
 ---
 
-  <<<<<<< my-pages
-    Testing github blogging tool.
+This repository is not the live GitHub Pages source.
 
-  --H2
-    # Header
-    ## sub header
-    A sentence
-      - bullet point 1
-      - next one
-          `help`
-          =======
-            Something to read here. One more
-  >>>>>>> main
+The active blog is maintained in `vdeolali/vdeolali.github.io` and published at `https://vdeolali.github.io/`.
